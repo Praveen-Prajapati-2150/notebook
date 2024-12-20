@@ -11,7 +11,7 @@ const TextArea = (props: any) => {
         height: '100%',
         padding: '0 30%',
         fontSize: '13px',
-        color: '#f3f3f3',
+        color: '#b7b7b7',
         outline: 'none',
         border: 'none',
         lineHeight: '23px',
