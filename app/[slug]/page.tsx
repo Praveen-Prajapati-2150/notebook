@@ -27,11 +27,11 @@ export default function DynamicPage() {
     debouncedSaveToLocalStorage(newValue);
   };
 
-  // let data: {
-  //   page1: 'data';
-  //   page2: 'data';
-  //   page3: 'data';
-  // };
+  let data: {
+    page1: 'data';
+    page2: 'data';
+    page3: 'data';
+  };
 
   useEffect(() => {
     const savedNotes = JSON.parse(localStorage.getItem('notes') || '{}');
